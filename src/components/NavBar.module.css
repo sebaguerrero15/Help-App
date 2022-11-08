@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+.MenuNav{
+    font-size: 20px;
+    font-family: 'Silkscreen', cursive;
+    background-color: rgb(14, 20, 82);
+    color: rgb(243, 243, 46);
+    text-decoration: none;
+    justify-content: space-around;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    webkit-backdrop-filter: blur(0px);
+}
+
+
+
+.linkinicio{
+    text-decoration: none;
+    color: rgb(243, 243, 46);;
+    align-items: center;
+ 
+}
+
+.linkinicio:hover{
+    color: rgb(241, 10, 10);
+}
+
+.r2d2{
+   display:inline-block;
+   align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+img:hover{
+    cursor: pointer;
+  
+}

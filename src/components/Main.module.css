@@ -1,0 +1,56 @@
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    color: rgb(243, 243, 46);
+    font-family: 'Silkscreen', cursive;
+    margin: 20px auto;
+    font-size: 50px;
+    text-align: center;
+}
+
+.r2d2title{
+    max-width: 75px;
+    max-height: 75px;
+}
+
+.containermain{
+    display: grid;
+    grid-template-columns: repeat(4,150px);
+    grid-template-rows: repeat(3,150px);
+    gap: 20px;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 10px;
+    border: 3px solid rgb(234, 234, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 8px 8px 10px black;
+    cursor:pointer;
+    background: rgba(162, 162, 162, 0.17);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover{
+    transform: scale(1.05);
+    border-color: rgb(233, 69, 96);
+}
+
+.icons{
+    margin: 0 10px 25px;
+    font-size: 7.5em;
+    text-align: center;
+    color: rgb(8, 217, 214);
+}
+
+.icons:hover{
+    color: rgb(243, 243, 46);
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{margin: 0; padding: 0;}
+
+.acordion{
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    color: black;
+    font-size: 16px;
+  }
+  
+  p{
+    margin-left: 10px;
+    color: black;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .item{
+    background-color: rgb(241, 239, 236);
+  }
+
+.containercode{
+  background-color: rgb(58, 58, 58);
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.semantic{
+  max-width: 70%;
+}
